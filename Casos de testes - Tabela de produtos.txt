@@ -1,0 +1,21 @@
+Cenários de testes escritos em BDD
+
+Cenário 1
+Dado que acesso o site da tabela
+Quando acesso a página principal
+Então devo visualizar todos os campos da tabela
+
+Cenário 2
+Dado que quero validar os campos obrigatórios
+Quando clico no botão adicionar com todos os campos em branco
+Então devo visualizar uma mensagem de campo obrigatório em todos os campos
+
+Cenário 3
+Dado que não posso adicionar produto com valor negaitvo
+Quando insiro um valor negativo no campo de preço
+Então devo visualizar uma mensagem de preço inválido
+
+Cenário 4
+Dado que quero visualizar 5 itens na minha tabela de produtos
+Quando adiciono 5 produtos na minha tabela
+Então devo visualizar um total de 5 produtos na minha tabela
